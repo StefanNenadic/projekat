@@ -1,57 +1,161 @@
-<!DOCTYPE html PUBLIC>
-<html lang="en">
-<html>
-<head>
-<link href="css/css.style.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
-<title>Diwanee Serbia Project</title>
-</head>
-<body>
-<div class="heder">
-	<div class="topnav" id="myTopnav">
-	  <a href="#home">Home</a>
-	  <a href="#news">O nama</a>
-	  <a href="#contact">Poslovi</a>
-	  <a href="#about">Kontakt</a>
-	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	<!DOCTYPE html PUBLIC>
+	<html lang="en">
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<link href="css/css.style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+	<title>Diwanee Serbia Project</title>
+	</head>
+	<body>
+	<div class="heder">
+		<div class="topnav" id="myTopnav">
+		 	<a  class="logo" href="#home"><img src="Images/logo.png"></a>
+		 	<a  class="nav-bar" href="#about">O nama</a>
+		  	<a  class="nav-bar-top" href="#jobs">Poslovi</a>
+		  	<a  class="nav-bar-top" href="#contact">Kontakt</a>
+		  	<a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		<div class="heder-line">
+			<h1><strong>DIWANEE SERBIA</strong></h1>
+			<img src="Images/red.png">
+			<p>Digital Media Agency always looking for motivated, multi-talented, and organized people to join our diverse team.<p>
+			<p class="media-text">DIGITAL MEDIA AGENCY<p>
+		</div>
 	</div>
-	<h1><strong>DIWANEE SERBIA</strong></h1>
-	<img src="Images/red.png">
-	<p>Digital Media Agency always looking for motivated, multi-talented, and organized people to join our diverse team.<p>
-</div>
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-<div class="about about-small-color">
-  	<img src="Images/development.PNG">
-	<h3><strong>DEVELOPMENT</strong></h3>
-	<!-- <img src="Images/grey.png"> -->
-	<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase.</p>
-</div>
-<div class="about about-color">
-	<img src="Images/web-desing.PNG">
-	<h3><strong>WEB & UI DESIGN</strong></h3>
-	<!-- <img src="Images/grey.png"> -->
-	<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase.</p>
-</div>
-<div class="about about-small-color">
-	<img src="Images/work-team.PNG">
-	<h3><strong>WORK IN TEAM</strong></h3>
-	<!-- <img src="Images/grey.png"> -->
-	<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase.</p>
-</div>
-<div class="jobs">
-	<h6>OTVORENE POZICIJE</h6>
-	<h1>POSLOVI</h1>
-	<!-- <img src="Images/red.png"> -->
-	<p class="about__text--center">We are always looking for motivated, multi-talented, and organized people to join our diverse team.</p>
-</div>
-</body>
+	<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+	<div class="about" id="about">
+	  	<img src="Images/development.PNG">
+		<h3><strong>DEVELOPMENT</strong></h3>
+		<h1><img src="Images/grey.png"></h1>
+		<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase.</p>
+	</div>
+
+	<div class="about about-color">
+		<img src="Images/web-desing.PNG">
+		<h3><strong>WEB & UI DESIGN</strong></h3>
+		<h1><img src="Images/grey.png"></h1>
+		<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase.</p>
+	</div>
+
+	<div class="about">
+		<img src="Images/work-team.PNG">
+		<h3><strong>WORK IN TEAM</strong></h3>
+		<h1><img src="Images/grey.png"></h1>
+		<p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase.</p>
+	</div>
+
+	<div class="jobs" id="jobs">
+		<h6>OTVORENE POZICIJE</h6>
+		<h1>POSLOVI</h1>
+		<h3><img src="Images/red.png"></h3>
+		<p class="about__text--center">We are always looking for motivated, multi-talented, and organized people to join our diverse team.</p>
+		<div class="jobs-title job-tetx">
+			<h4>FRONT-END DEVELOPER</h4>
+			<p>Trazimo FRONT-END DEVELOPER sa odlicnim poznavanjem
+			i iskustvom vise od godinu dana u Drupalu.</p>
+		</div>
+		<div class="jobs-title job-tetx">
+			<h3><a href="#">PRIJAVI SE</a></h3>
+		</div>
+		<div class="job-skils skils-border">
+			<h5 class="job-skil"><a href="#">#HTML</a></h5>
+			<h5><a href="#">#CSS</a></h5>
+			<h5><a href="#">#JavaScript</a></h5>
+		</div>
+			<div class="jobs-color">
+				<div class="job-title job-tetx ">
+					<h4>PROJECT MANAGER</h4>
+					<p>Trazimo Project Managera sa odlicnim organizacionim sposobnostima i iskustvom vodjenja digital projekata...</p>
+				</div>
+				<div class="jobs-title job-tetx">
+					<h2><a href="#">PRIJAVI SE</a></h2>
+				</div>
+				 <div class="job-skils skils-border">
+					<h4 class="jobs-skil"><a href="#">#HTML</a></h4>
+					<h4><a href="#">#CSS</a></h4>
+					<h4><a href="#">#Balsamiq</a></h4>
+					<h4><a href="#">#UXpin</a></h4>
+				</div>
+			</div>
+			<div class="jobs-title job-tetx">
+				<h4>UX/UI DESIGNER</h4>
+				<p>Ako si kreativan i volis da radis u timu, posedujes visegodisnje iskustvo iz oblasti digital dizajna, ux/ui...</p>
+			</div>
+			<div class="jobs-title job-tetx">
+				<h3><a href="#">PRIJAVI SE</a></h3>
+			</div>
+		 	<div class="job-skils skils-border">
+				<h5 class="job-skil"><a href="#">#Sketch</a></h5>
+				<h5><a href="#">#AdobeXD</a></h5>
+				<h5><a href="#">#Photoshop</a></h5>
+				<h5><a href="#">#Balsamiq</a></h5>
+			</div>
+		</div>
+		<div class="see-more">
+			<button class="btn"><a href="#">UCITAJ JOS POZICIJA</a></button>
+		</div>
+		<div class="digital-media">
+			<h6>DIWANEE BEOGRAD </h6>
+			<h1>DIGITAL MEDIA COMPANY</h1>
+	    	<img src="Images/red.png">
+			<p>Diwanee je digitalna medijska kompanija, okrenuta velikoj ženskoj publici na Bliskom istoku. Naša kompanija stvara i distribuira originalan, visokokvalitetan i pouzdan sadržaj. Diwanee je takođe partner sa YouTube-om, i zajedno smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske žene širom sveta. </p>
+			<p class="digital-padding">Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru. Diwanee je partner i sa velikim regionalnim vlasnicima medija, kako bismo upravljali svojom digitalnom prisutnošću.<p>
+		</div>
+		<div class="jobs">
+			<h6>PRATITE NAS</h6>
+			<div class="social-icons twiter">
+				<img src="Images/twiter.png">
+			</div>
+			<div class="social-icons facebook">
+	   			<img src="Images/facebook.png">
+			</div>
+		</div>
+		<div class="contact" id="contact">
+			<div class="location">
+				<h4><img src="Images/location.png">DUBAI</h4>
+				<p>Office Park, Building Block A</p>
+				<p>Units A301-A302</p>
+				<p>Dubai Internet City</p>
+				<p>Tel: 971 4 - 434 7147</p>
+			</div>
+			<div class="location">
+				<h4><img src="Images/location.png">BEIRUT</h4>
+				<p>Dora, Seaside Road,</p>
+				<p>Dora, Seaside Road,</p>
+				<p>Mobile: 961 76 - 866 700</p>
+				<p>Fax: 961 1 - 244 846</p>
+			</div>
+			<div class="location">
+				<h4><img src="Images/location.png">BELGRADE</h4>
+				<p>Resavska</p>
+				<p>33,</p>
+				<p>11000 Beograd </p>
+				<p>Tel: +381 11 - 3340 117</p>
+			</div>
+			<div class="footer__copyright">
+	      		<p class="footer-copyright">COPYRIGHT &copy; 2015  DIWANEEE SERBIA ALL RIGHTS RESERVED</p> 
+	    	</div>
+		   	<div class="footer__copyright likdin">
+		    	<div class="footer-text">
+			     	<img src="Images/likdin.png">
+			    </div>
+			    <div class="footer-text foorer-center">
+			     	<img  class="twittico" src="Images/twittico.png">
+			    </div>
+			    <div class="footer-text ">
+			     	<p>www.diwanee.com</p>
+			     </div>
+	       	</div>
+    	</div>
+	</body>
 </html>
