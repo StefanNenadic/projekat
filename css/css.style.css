@@ -66,6 +66,8 @@ body {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
   font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .about p {
 	line-height: 1.5rem;
@@ -73,7 +75,7 @@ body {
   color: #323232;
   text-align: center;
   width: 85%;
-  padding: 0px 9px 30px 32px;
+  padding: 0px 9px 30px 19px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   margin-left: 3%;
@@ -83,7 +85,7 @@ body {
 	background-color: #ece8e8;
 }
 .about img {
-	margin-left: 38%;
+	margin-left: 37%;
 	padding: 86px 10px 0px 10px;
 /*	height: 15%;*/
 }
@@ -116,7 +118,7 @@ body {
 }
 .jobs h3  img {
   margin-left: 46%;
-  height: 5%;
+  height: 6%;
   width: 8%;
 }
 .about__text--center {
@@ -329,9 +331,6 @@ body {
   line-height:0.5rem;
   font-size: 11px;
 }
-/*.twittico {
-  height: 3.5%;
-}*/
 .footer-text {
   width: 15.5%;
   display: inline-block;
@@ -511,13 +510,15 @@ body {
     width: 100% !important;
   }
   .about h3 {
-    margin-left: 14%; 
+    margin-left: 11%; 
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .about img {
-    margin-left: 45% !important; 
+    margin-left: 44% !important; 
   }
   .about p {
-    padding: 8px 0px 32px 50px;
+    padding: 8px 0px 32px 35px;
   }
   .job-tetx {
     width: 100% !important;
@@ -552,20 +553,25 @@ body {
 }
 @media screen and (max-width: 480px) {
   .about img {
-    margin-left: 40% !important;
+    margin-left: 37% !important;
   }
   .job-tetx {
     width: 100% !important;
   }
   .about p {
-    padding: 8px 0px 32px 43px;
+    padding: 8px 0px 32px 31px;
     font-size: 16px;
   }
   .digital-media p {
     font-size: 18px;
+    width: 76%;
   }
   .footer__copyright {
     font-size: 10px;
+    line-height: 1rem;
+  }
+  .footer-text {
+    width: 30%;
   }
   .jobs-title p {
     width: 79%;
@@ -580,7 +586,7 @@ body {
     margin-left: 7%;
   }
   .job-skil {
-    margin-left: 5.5%;
+    margin-left: 7.5%;
   }
   .job-title p {
     width: 90%;
@@ -628,13 +634,27 @@ body {
     width: 31%;
   }
   .job-skils h5 {
-    width: 18.8%;
+    width: 19%;
   }
   .job-skils h4 {
     width: 17.6%;
   }
   .nav-bar {
     padding-top: 11% !important;
+  }
+  .heder h1 {
+    font-size: 3rem;
+  }
+  .about h3 {
+    margin-left:8%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about h1 img {
+    width: 35%;
+  }
+  .jobs h6 {
+    margin-left: 3%;
   }
 }
 
